@@ -27,6 +27,7 @@
 project (libhdfspp)
 
 cmake_minimum_required(VERSION 2.8)
+cmake_policy(SET CMP0074 NEW)
 
 find_package (Boost 1.72.0 REQUIRED)
 
